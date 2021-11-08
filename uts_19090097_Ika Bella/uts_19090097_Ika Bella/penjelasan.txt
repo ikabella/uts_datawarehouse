@@ -1,0 +1,20 @@
+dim_payment
+mengambil nama pada tabel payment untuk mengetahui nama customer, kemudian dijoinkan pada tabel customer dan produks
+mengambil id_customer pada tabel payment untuk mengetahui id pada customer
+mengambil kota pada tabel payment untuk mengetahui asal kota dari customer
+
+dim_customers
+mengambil id_number pada tabel customers untuk mengetahui id number
+mengambil tanggal pada tabel customers untuk mengetahui tanggal ketika membeli
+mengambil amount (jumlah) pada tabel customers untuk mengetahui jumlah yang dibeli oleh customer
+
+
+dim_produks
+mengambil kode pada tabel produks untuk mengetahui kode dari produk
+mengambil nama pada tabel produks untuk mnegetahui dari nama produk
+mengambil harga pada tabel produks untuk mengetahui harga dari produk
+
+fakta_retail
+mengambil sk_produks dari tabel dim_produks, dan membuat querinya agar dapat diakses pada tabel dim_produks
+mengambil sk_payment dari tabel dim_payment, dan membuat querinya agar dapat diakses pada tabel dim_payment
+mengambil sk_customer dari tabel dim_customer, dan membuat querinya agar dapat diakses pada tabel dim_customer
